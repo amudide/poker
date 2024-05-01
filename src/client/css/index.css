@@ -17,6 +17,50 @@
   margin-right: 10px;
 }
 
+#homepage {
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn, .signup-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #413c3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-btn {
+  background-color: #b96d5f;
+}
+
+.login-btn:hover {
+  background-color: #1c1d1d;
+}
+
+.signup-btn:hover {
+  background-color: #6f4034;
+}
+
+
+#logo {
+  width: 10%; /* Adjust image size as needed */
+}
+
 #gameDiv {
   margin-left: 10px;
   margin-right: 10px;
@@ -26,7 +70,7 @@
 html,
 body,
 .login-box {
-  background: #2e64bc;
+  background: #000000;
   height: 95%;
 }
 
